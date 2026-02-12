@@ -1,0 +1,14 @@
+# Usuarios registrados (usuario: contraseña)
+usuarios = {
+    "admin": "1234",
+    "mishell": "abcd",
+    "user1": "pass1"
+}
+
+usuario = input("Ingrese su usuario: ")
+contrasena = input("Ingrese su contraseña: ")
+
+if usuario in usuarios and usuarios[usuario] == contrasena:
+    print("✅ Acceso permitido. Bienvenido,", usuario)
+else:
+    print("❌ Usuario o contraseña incorrectos")

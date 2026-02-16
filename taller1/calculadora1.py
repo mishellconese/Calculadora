@@ -1,6 +1,6 @@
 #Mishell Nikol Uribe Guerrero
 #Andres Mauricio Vargas Sandoval
-#Violeta Figueroa Espinoza
+#Violeta Figueroa Espinosa
 
 import math
 

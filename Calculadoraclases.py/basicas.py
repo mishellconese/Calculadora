@@ -1,4 +1,6 @@
 class OpBasicas:
+    def __init__(self):
+        self.nombre = "Operaciones Basicas"
     def suma(self,a,b):
         return a+b
     def resta(self,a,b):

@@ -11,6 +11,7 @@ def menu():
     print(f"{'5 Seno':<20}{'12 MCD'}")
     print(f"{'6 Coseno':<20}{'13 MCM'}")
     print(f"{'7 Tangente':<20}{'14 IVA'}")
+    print(f"{'      ':<20}{'15 Eliminar Acumulado':<20}")
     print("\n0 SALIR DEL MENU")
 
 def main():
@@ -91,6 +92,11 @@ def main():
             print("IVA:", iva)
             print("Total:", total)
         else:
-            print("Opcion no válida")
+            print("Opción no válida")
+            
+        if op==15:             
+            print("Eliminar acumulado")
+            res=0
+            print("acumulado igual a: ", res)
 #ejecucion
 main()

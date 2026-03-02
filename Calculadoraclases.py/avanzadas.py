@@ -1,4 +1,6 @@
 class OpAvanzadas:
+    def __init__(self):
+        self.nombre = "Operaciones Avanzadas"
     def potenciaenesima(self,base,exponente):
         return base**exponente
     def raizenesima(self,numero,indice):

@@ -1,5 +1,7 @@
 import math
 class OpTrigonometricas:
+    def __init__(self):
+        self.nombre = "Operaciones Trigonométricas"
     def seno(self,angulo):
         return math.sin(math.radians(angulo))
 
